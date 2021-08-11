@@ -3,7 +3,7 @@ var mysql = require('mysql');
 var fs = require('fs');
 
 
-// 비밀번호는 별도의 파일로 분리해서 버전관리에 포함시키지 않아야 합니다. 
+// 비밀번호는 별도의 파일로 분리해서 버전관리에 포함시키지 않아야 합니다.  aaaaaa
 var connection = mysql.createConnection({
   host     : '192.168.0.4',
   user     : 'pi',
